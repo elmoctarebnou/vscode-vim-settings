@@ -1,0 +1,52 @@
+[
+    {
+        "key": "cmd+shift+h",
+        "command": "workbench.action.focusPreviousGroup",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+shift+l",
+        "command": "workbench.action.focusNextGroup",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+h",
+        "command": "workbench.action.previousEditor",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+l",
+        "command": "workbench.action.nextEditor",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+space",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "cmd+p",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "cmd+v cmd+s",
+        "command": "workbench.action.splitEditor"
+    },
+    {
+        "key": "cmd+\\",
+        "command": "-workbench.action.splitEditor"
+    },
+    {
+        "key": "cmd+shift+f",
+        "command": "-workbench.action.findInFiles"
+    },
+    {
+        "key": "cmd+shift+f",
+        "command": "workbench.action.terminal.focusFind",
+        "when": "terminalFindFocused && terminalProcessSupported || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "cmd+f",
+        "command": "-workbench.action.terminal.focusFind",
+        "when": "terminalFindFocused && terminalProcessSupported || terminalFocus && terminalProcessSupported"
+    }
+]
